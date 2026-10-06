@@ -1,0 +1,1 @@
+RecallIQ is a local-first competitive-exam mathematics memory trainer. The MVP must remain simple and must not introduce authentication, backend services, AI APIs, databases, payments, or unnecessary infrastructure.

@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Validate mathematical content",
+      "description": "Run the existing test suite when mathematical content changes.",
+      "trigger": "PostFileSave",
+      "matcher": "public/data/{chapters,questions}.json",
+      "action": {
+        "type": "command",
+        "command": "npm test"
+      },
+      "enabled": true
+    }
+  ]
+}

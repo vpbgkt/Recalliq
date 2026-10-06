@@ -1,0 +1,163 @@
+/* ============================================================
+   PracticeScreen — CSS Module
+   Tasks 13–17 | Requirements: 2.3, 3.1–3.4, 12.1–12.5
+   ============================================================ */
+
+/* ── Container ──────────────────────────────────────────── */
+.practiceScreen {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+/* ── Header row: chapter label + progress ───────────────── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.chapterLabel {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6366f1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.progressInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.questionCounter {
+  font-size: 0.875rem;
+  color: #64748b;
+  white-space: nowrap;
+}
+
+/* ── Progress bar ───────────────────────────────────────── */
+.progressBarTrack {
+  width: 160px;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progressBarFill {
+  height: 100%;
+  background: #6366f1;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+/* ── Streak badge ───────────────────────────────────────── */
+.streakBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.2rem 0.625rem;
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: 9999px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Hidden when streak is 0 */
+.streakBadgeHidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* ── Question card ──────────────────────────────────────── */
+.questionCard {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.questionText {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #1e293b;
+  margin: 0;
+}
+
+/* Monospace spans for maths characters (², ³, √, etc.) */
+.mathText {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.0625rem;
+}
+
+/* ── Answer choices ─────────────────────────────────────── */
+.choicesList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+}
+
+.choiceButton {
+  width: 100%;
+  text-align: left;
+  padding: 0.875rem 1.25rem;
+  border-radius: 8px;
+  border: 2px solid #e2e8f0;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1e293b;
+  min-height: 44px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+  box-sizing: border-box;
+}
+
+.choiceButton:hover:not(:disabled) {
+  border-color: #6366f1;
+  background: #f0f0ff;
+}
+
+.choiceButton:focus-visible {
+  outline: 3px solid #6366f1;
+  outline-offset: 2px;
+}
+
+.choiceButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ── Responsive adjustments ─────────────────────────────── */
+@media (max-width: 640px) {
+  .practiceScreen {
+    padding: 1rem;
+  }
+
+  .questionCard {
+    padding: 1.25rem;
+    margin: 1rem 0;
+  }
+
+  .progressBarTrack {
+    width: 100px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

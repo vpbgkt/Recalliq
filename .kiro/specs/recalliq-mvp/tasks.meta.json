@@ -1,0 +1,356 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Set up project foundation and data models": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997199
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260004668
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260010863
+      }
+    ],
+    "2.1 Create data loader service": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997314
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260015526
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260020822
+      }
+    ],
+    "2.2 Create question selection service": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997368
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260016037
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260021431
+      }
+    ],
+    "3. Implement local storage service": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997444
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260016363
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260021726
+      }
+    ],
+    "4. Create React Context structure": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997506
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260027799
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260180736
+      }
+    ],
+    "5. Implement ApplicationProvider component foundation": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997552
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260028020
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260187674
+      }
+    ],
+    "6. Implement session start actions": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997597
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260196338
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260201178
+      }
+    ],
+    "7. Implement answerQuestion action": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997641
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260196638
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260201592
+      }
+    ],
+    "8. Implement completeSession function": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997684
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260207603
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260216487
+      }
+    ],
+    "9. Implement returnToHome action": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997729
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260208021
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260216874
+      }
+    ],
+    "10. Create HomeScreen component structure": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997813
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260223171
+      }
+    ],
+    "11.1 Create ChapterCard component": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997883
+      }
+    ],
+    "11.2 Create MixedChallengeCard component": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997929
+      }
+    ],
+    "12. Add responsive CSS styling for HomeScreen": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259997977
+      }
+    ],
+    "13. Create PracticeScreen component structure": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998020
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260223400
+      }
+    ],
+    "14. Create SessionProgress component": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998073
+      }
+    ],
+    "15. Create QuestionDisplay component": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998127
+      }
+    ],
+    "16. Create AnswerChoices component": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998185
+      }
+    ],
+    "17. Add responsive CSS styling for PracticeScreen": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998245
+      }
+    ],
+    "18. Create ResultsScreen component structure": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998300
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260223927
+      }
+    ],
+    "19. Create SessionStats component": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998419
+      }
+    ],
+    "20. Create IncorrectQuestions component": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998475
+      }
+    ],
+    "21. Create WeakAreasDisplay component": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998524
+      }
+    ],
+    "22. Add Return to Home button": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998573
+      }
+    ],
+    "23. Add responsive CSS styling for ResultsScreen": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998624
+      }
+    ],
+    "24. Create ErrorBoundary component": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998670
+      },
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260224429
+      }
+    ],
+    "25. Add error handling to ApplicationProvider": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998714
+      }
+    ],
+    "26. Add ARIA labels and semantic HTML": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998761
+      }
+    ],
+    "27. Implement keyboard navigation": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998809
+      }
+    ],
+    "28. Update App.tsx to wire everything together": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998862
+      }
+    ],
+    "29. Add global CSS styles": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998916
+      }
+    ],
+    "30. Final integration and manual testing": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791259998972
+      }
+    ],
+    "2. Implement data loading and question selection services": [
+      {
+        "executionId": "1857739b-24bb-4049-9bec-f22360264d6c",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791260021523
+      }
+    ]
+  }
+}

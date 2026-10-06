@@ -1,0 +1,52 @@
+﻿{
+  "chapters": [
+    {
+      "id": "fractions-percentages",
+      "name": "Fractions & Percentages",
+      "description": "Master fraction to percentage conversions and common equivalents",
+      "questionCount": 15
+    },
+    {
+      "id": "squares",
+      "name": "Squares",
+      "description": "Memorize squares of numbers from 1 to 30",
+      "questionCount": 20
+    },
+    {
+      "id": "cubes",
+      "name": "Cubes",
+      "description": "Learn cubes of numbers from 1 to 20",
+      "questionCount": 15
+    },
+    {
+      "id": "square-roots",
+      "name": "Square Roots",
+      "description": "Practice square root calculations and approximations",
+      "questionCount": 15
+    },
+    {
+      "id": "cube-roots",
+      "name": "Cube Roots",
+      "description": "Master cube root values for common numbers",
+      "questionCount": 12
+    },
+    {
+      "id": "decimal-fraction",
+      "name": "Decimal & Fraction Conversions",
+      "description": "Convert between decimals and fractions quickly",
+      "questionCount": 18
+    },
+    {
+      "id": "ratios-percentages",
+      "name": "Ratios & Percentages",
+      "description": "Solve ratio and percentage problems efficiently",
+      "questionCount": 20
+    },
+    {
+      "id": "formula-recall",
+      "name": "Formula Recall",
+      "description": "Memorize important mathematical formulas",
+      "questionCount": 25
+    }
+  ]
+}

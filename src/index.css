@@ -1,0 +1,66 @@
+﻿/* RecallIQ — Global Styles | Requirements: 12.1-12.5 */
+
+/* Custom properties */
+:root {
+  --color-brand:       #6366f1;
+  --color-brand-dark:  #4f46e5;
+  --color-surface:     #ffffff;
+  --color-bg:          #f8f7ff;
+  --color-text:        #1e293b;
+  --color-text-muted:  #64748b;
+  --color-border:      #e2e8f0;
+  --color-error:       #ef4444;
+  --color-success:     #22c55e;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.05);
+  --shadow-md: 0 4px 16px rgba(0,0,0,.10);
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+
+/* Reset */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+img, svg { display: block; }
+button { font-family: inherit; }
+
+/* Root layout */
+#root {
+  min-height: 100dvh;
+  background-color: var(--color-bg);
+}
+
+/* Typography */
+h1 {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: 700;
+  margin: 0 0 .5rem;
+  color: var(--color-text);
+}
+h2 {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: 600;
+  margin: 0 0 .5rem;
+  color: var(--color-text);
+}
+p { margin: 0; color: var(--color-text-muted); }
+
+/* Focus ring */
+:focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }

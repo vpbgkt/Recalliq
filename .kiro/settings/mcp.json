@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "recalliq-math-content": {
+      "command": "node",
+      "args": [
+        "mcp/math-content-server/server.mjs"
+      ]
+    }
+  }
+}

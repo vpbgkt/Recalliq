@@ -1,0 +1,225 @@
+{
+  "pbtResults": {
+    "3.1 Create `src/properties.test.ts` and implement Property 1 — fraction-to-percentage equivalence": {
+      "status": "passed",
+      "lastRunTimestamp": 1791263437136
+    }
+  },
+  "executionHistory": {
+    "1.1 Add `test: { globals: true, environment: 'node' }` to the `defineConfig` call in `vite.config.ts`": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263252879
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263270865
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263298870
+      }
+    ],
+    "2.1 Insert `\"test\": \"vitest --run\"` into the `scripts` block of `package.json`": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263252933
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263275025
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263299179
+      }
+    ],
+    "3.1 Create `src/properties.test.ts` and implement Property 1 — fraction-to-percentage equivalence": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263252980
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263303584
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263459263
+      }
+    ],
+    "3.2 Add Property 2 — square(n) identity": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263253013
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263465110
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263575201
+      }
+    ],
+    "3.3 Add Property 3 — cube(n) identity": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263253051
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263468624
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263579668
+      }
+    ],
+    "3.4 Add Property 4 — sqrt-of-square round trip": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263253087
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263472295
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263580192
+      }
+    ],
+    "3.5 Add Property 5 — score range invariant": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263253129
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263475779
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263580809
+      }
+    ],
+    "3.6 Add Property 6 — accuracy range invariant": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263253194
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263479168
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263581280
+      }
+    ],
+    "3.7 Add Property 7 — Question correctAnswerIndex in bounds": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263253230
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263483066
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263581590
+      }
+    ],
+    "4.1 Run `npm test` (or `npx vitest --run`) and confirm all 7 properties pass with 0 failures": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263253265
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263589138
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263612667
+      }
+    ],
+    "5. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263253308
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263619099
+      },
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263635873
+      }
+    ],
+    "1. Configure vitest in vite.config.ts": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263298994
+      }
+    ],
+    "2. Add test script to package.json": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263299297
+      }
+    ],
+    "3. Write src/properties.test.ts with all 7 properties": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263581629
+      }
+    ],
+    "4. Run tests and verify": [
+      {
+        "executionId": "5a2fc33e-7cf3-483e-8ae7-8499f98207d5",
+        "chatSessionId": "sess_b2d22c3b-f20e-4f0f-8391-e7cdc802a777",
+        "timestamp": 1791263612750
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "competitive-math-content",
+  "version": "1.0.0",
+  "description": "Create and validate competitive-exam mathematics learning content for RecallIQ.",
+  "author": {
+    "name": "RecallIQ"
+  },
+  "keywords": [
+    "competitive maths",
+    "aptitude maths",
+    "mathematics questions",
+    "MCQ",
+    "exam preparation",
+    "fractions",
+    "percentages",
+    "formulas"
+  ]
+}

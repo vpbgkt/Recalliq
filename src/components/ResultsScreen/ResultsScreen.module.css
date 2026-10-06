@@ -1,0 +1,158 @@
+/**
+ * ResultsScreen CSS Module — mobile-first.
+ * Task 23
+ */
+
+/* ── Outer container ──────────────────────────────────────────────────────── */
+.resultsScreen {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* ── Page heading ─────────────────────────────────────────────────────────── */
+.resultsScreen > h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
+/* ── Stats grid — 2×2 on mobile, 4-col on ≥600px ─────────────────────────── */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .statsGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* ── Individual stat card ─────────────────────────────────────────────────── */
+.statCard {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
+}
+
+/* ── Stat value (large number) ───────────────────────────────────────────── */
+.statValue {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #6366f1;
+  display: block;
+  line-height: 1.2;
+  margin-bottom: 0.25rem;
+}
+
+/* ── Stat label (small caption) ─────────────────────────────────────────── */
+.statLabel {
+  font-size: 0.75rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  display: block;
+}
+
+/* ── Generic content section ─────────────────────────────────────────────── */
+.section {
+  margin-top: 2rem;
+}
+
+.section > h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 1rem;
+}
+
+/* ── Perfect score message ───────────────────────────────────────────────── */
+.perfectMessage {
+  text-align: center;
+  font-size: 1.05rem;
+  color: #22c55e;
+  padding: 1rem 0;
+}
+
+/* ── Incorrect answer item ───────────────────────────────────────────────── */
+.incorrectItem {
+  border-radius: 8px;
+  padding: 1rem;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 0.75rem;
+}
+
+.incorrectItem p {
+  margin: 0 0 0.5rem;
+  font-size: 0.9375rem;
+  color: #1a1a2e;
+  line-height: 1.4;
+}
+
+.incorrectItem p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Answer colour helpers ───────────────────────────────────────────────── */
+.wrongAnswer {
+  color: #ef4444;
+  font-weight: 500;
+}
+
+.correctAnswer {
+  color: #22c55e;
+  font-weight: 500;
+}
+
+/* ── Weak area badges row ────────────────────────────────────────────────── */
+.weakAreaBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+/* ── Individual badge / pill ─────────────────────────────────────────────── */
+.badge {
+  background: #ede9fe;
+  color: #6d28d9;
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* ── Back to Home button ─────────────────────────────────────────────────── */
+.backBtn {
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.875rem 2rem;
+  background: #6366f1;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.15s ease;
+  min-height: 44px; /* WCAG minimum touch target */
+}
+
+.backBtn:hover {
+  background: #4f46e5;
+}
+
+.backBtn:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 3px;
+}
